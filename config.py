@@ -31,4 +31,4 @@ IV_KEY = os.getenv("IV_KEY", "s7Yx5CpVmE3F") # for decryption
 YT_COOKIES = os.getenv("YT_COOKIES", YTUB_COOKIES)
 INSTA_COOKIES = os.getenv("INSTA_COOKIES", INST_COOKIES)
 FREEMIUM_LIMIT = int(os.getenv("FREEMIUM_LIMIT", "0"))
-PREMIUM_LIMIT = int(os.getenv("PREMIUM_LIMIT", "10000"))
+PREMIUM_LIMIT = int(os.getenv("PREMIUM_LIMIT", "500"))
